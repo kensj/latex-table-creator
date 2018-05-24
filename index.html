@@ -1,9 +1,9 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 <title>Latex Table Creator</title>
-<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css"/>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -20,17 +20,21 @@
         </div>
       </div>
     </section>
-    <br>
+    <br/>
     <div class="control">
       <button class="button is-info" id="add-table-row">Add Table Row</button>
     </div>
     <dl class="input-lists">
 
     </dl>
-    <br><br><hr>
-    <div class="section"><br>
+    <br/><br/><hr>
+    <div class="section"><br/>
       <button class="button is-success" id="submit">Submit</button>
-      <textarea readonly placeholder="Code will appear here" class="textarea" id="final"></textarea>
+      <textarea class="textarea"
+        id="final"
+        placeholder="Code will appear here"
+        readonly="">
+      </textarea>
     </div>
   </div>
   <footer><script type="text/javascript" src="main.js"></script></footer>
