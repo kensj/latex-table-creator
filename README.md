@@ -2,7 +2,7 @@
 
 Very simple latex table generator written using JQuery.
 
-[Demo](http://kenjijapra.com/demo/simple-latex-table-generator/index.html)
+[Demo](http://kenji.us/demo/simple-latex-table-generator/index.html)
 
 ### Features:
 
